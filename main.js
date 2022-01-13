@@ -1,6 +1,6 @@
 var animalContainer = document.getElementById("animal-info");
 var ourRequest = new XMLHttpRequest();
-ourRequest.open('GET', 'https://richardeus1.github.io/jsonparser/animals.json');
+ourRequest.open('GET', 'https://rocknrollatv.github.io/rocknrollatv/animals.json');
 ourRequest.onload = function() {
     var ourData = JSON.parse(ourRequest.responseText);
     renderHTML(ourData);
